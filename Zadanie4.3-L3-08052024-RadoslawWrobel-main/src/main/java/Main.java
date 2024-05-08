@@ -1,4 +1,3 @@
-
 /*
 Kod bazowy programu Commit4_0: 
 • Program dodaje do prostej bazy danych (pliku db.txt) dane odnośnie Studentów.
