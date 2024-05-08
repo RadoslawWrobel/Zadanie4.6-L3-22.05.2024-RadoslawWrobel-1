@@ -36,9 +36,13 @@ class Main {
           case 2:
             System.out.println("Podaj imię nowego studenta:");
             String imie = scanner.next();
+            System.out.println("Podaj nazwisko nowego studenta:"); // Dodane
+            String nazwisko = scanner.next(); // Dodane
+            System.out.println("Podaj numer albumu nowego studenta:"); // Dodane
+            int numerAlbumu = scanner.nextInt(); // Dodane
             System.out.println("Podaj wiek nowego studenta:");
             int wiek = scanner.nextInt();
-            s.addStudent(new Student(imie, wiek));
+            s.addStudent(new Student(imie, nazwisko, numerAlbumu, wiek)); // Zmodyfikowane
             System.out.println("Nowy student został dodany.");
             break;
           case 0:
