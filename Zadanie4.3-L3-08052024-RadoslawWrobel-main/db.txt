@@ -1,0 +1,5 @@
+Krzysztof 20
+Janusz 40
+Radek 22
+Adam 334
+Pawel 15
